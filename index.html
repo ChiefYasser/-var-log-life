@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        /var/log/life_journal.exe
+    </div>
+
+    <div class="display" id="display">
+        <div class="welcome">
+            > Welcome to your digital consciousness archive<br>
+            > Type your thoughts, press Enter to log them<br>
+            > Use 'clear' command to wipe the slate clean<br>
+            <div class="command-info">== SESSION STARTED ==</div>
+        </div>
+    </div>
+
+    <div class="input-container">
+        <span class="prompt">user@mind:~$</span>
+        <input
+            type="text"
+            class="input-field"
+            id="inputField"
+            placeholder="Enter your thoughts..."
+            autocomplete="off"
+        />
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
